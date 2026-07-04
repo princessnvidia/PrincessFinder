@@ -6,6 +6,10 @@ PrincessFinder combines a clean interface with powerful file management features
 
 ---
 
+## Demo
+
+![PrincessFinder Demo](docs/demo.gif)
+
 ## Features
 
 ### 📁 File Management
