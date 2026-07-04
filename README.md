@@ -4,8 +4,6 @@ A modern, fast and user-friendly file explorer for Linux, inspired by MacOS Find
 
 PrincessFinder combines a clean interface with powerful file management features, making it easy to browse, organize and work with your files.
 
-![Screenshot](docs/screenshot.png)
-
 ---
 
 ## Features
