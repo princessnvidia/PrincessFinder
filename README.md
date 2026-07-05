@@ -1,77 +1,125 @@
 # PrincessFinder 👑
 
-A modern, fast and user-friendly file explorer for Linux, inspired by MacOS Finder and designed for productivity.
+Modern Linux file manager focused on **speed, productivity and elegant desktop workflows**.
 
-PrincessFinder combines a clean interface with powerful file management features, making it easy to browse, organize and work with your files.
+PrincessFinder reimagines the traditional file explorer by combining a clean interface, powerful file management tools and seamless integration with modern Linux development environments.
 
 ---
 
-## Demo
+<p align="center">
+  <img src="docs/demo.gif" alt="PrincessFinder Demo" width="100%">
+</p>
 
-![PrincessFinder Demo](docs/demo.gif)
+---
 
-## Features
+# Features
 
-### 📁 File Management
+## 📁 File Management
 
 - Browse local folders
 - Multiple navigation modes
 - Breadcrumb navigation
-- Drag & Drop support
-- Copy / Move / Rename / Delete
-- Create folders and files
+- Drag & Drop
+- Copy, Move, Rename and Delete
+- Create files and folders
 
-### ⚡ Productivity
+## ⚡ Productivity
 
 - Instant file search
 - Real-time file updates
 - Favorites
-- Recent locations
 - Bookmarks
+- Recent locations
 - Clipboard operations
 
-### 🖥 Interface
+## 🖥 Interface
 
-- Modern Qt-style interface
-- Resizable panels
+- Modern desktop interface
 - Dockable sidebars
+- Resizable panels
 - Multiple tabs
-- Split view *(planned)*
-- Light and dark themes
+- Light & Dark themes
+- Split View *(planned)*
 
-### 🔧 Developer Friendly
+## 💻 Developer Tools
 
 - Open folders directly in VS Code
-- Launch terminal from current folder
+- Launch terminal from the current directory
 - Git-aware navigation *(planned)*
 
-### 🚀 Performance
+## 🚀 Performance
 
 - Fast directory loading
 - Lazy thumbnail generation
-- Responsive UI
+- Responsive interface
 - Large folder optimization
 
 ---
 
-## Roadmap
+# Tech Stack
 
-- [ ] Split View
-- [ ] File preview panel
-- [ ] Git integration
-- [ ] SSH/SFTP browsing
-- [ ] Plugin system
-- [ ] Batch rename
-- [ ] Image metadata viewer
-- [ ] Archive browsing
-- [ ] Custom themes
+- Python
+- PySide6
+- Qt6
+- Linux
 
 ---
 
-## Installation
+# Application Architecture
+
+```
+Filesystem
+      │
+      ▼
+Directory Scanner
+      │
+      ▼
+File Model
+      │
+      ▼
+Navigation Engine
+      │
+      ▼
+Qt Interface
+      │
+      ▼
+User Actions
+```
+
+---
+
+# Roadmap
+
+## File Management
+
+- [ ] Split View
+- [ ] Preview Panel
+- [ ] Batch Rename
+- [ ] Archive Browsing
+
+## Development
+
+- [ ] Git Integration
+- [ ] SSH / SFTP Browser
+- [ ] Plugin System
+
+## Media
+
+- [ ] Image Metadata Viewer
+- [ ] Better Thumbnail Engine
+
+## Customization
+
+- [ ] Custom Themes
+- [ ] Layout Profiles
+
+---
+
+# Installation
 
 ```bash
 git clone https://github.com/princessnvidia/PrincessFinder.git
+
 cd PrincessFinder
 
 pip install -r requirements.txt
@@ -81,29 +129,35 @@ python princessfinder.py
 
 ---
 
-## Screenshots
+# Philosophy
 
-Coming soon.
+PrincessFinder is built around a simple principle:
 
----
+File management should feel effortless.
 
-## Why PrincessFinder?
+Instead of overwhelming users with unnecessary complexity, the application focuses on fast navigation, intuitive organization and developer-friendly workflows while remaining lightweight and fully open source.
 
-PrincessFinder aims to provide a modern alternative to traditional Linux file managers by combining speed, simplicity and advanced productivity features.
-
-The project is actively developed with a strong focus on usability and desktop integration.
+The long-term vision is to create a modern Linux file manager that combines the elegance of commercial desktop applications with the flexibility and openness of the Linux ecosystem.
 
 ---
 
-## Technologies
+# Inspiration
 
-- Python
-- PySide6
-- Qt6
-- Linux
+- Finder
+- Dolphin
+- Files (GNOME)
+- Directory Opus
+- Total Commander
+- Path Finder
 
 ---
 
-## License
+# Status
+
+🚧 Active Development
+
+---
+
+# License
 
 MIT License
