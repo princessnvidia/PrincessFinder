@@ -1,4 +1,4 @@
-# PrincessFinder 👑
+# PrincessFinder 
 
 Modern Linux file manager focused on **speed, productivity and elegant desktop workflows**.
 
